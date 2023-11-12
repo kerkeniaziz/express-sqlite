@@ -1,8 +1,8 @@
 version: '3'
 services:
 app:
-image: <username>/express-sqlite-app
-container_name: express-sqlite-app
+image: kerkeniaziz/express-sqlite
+container_name: express-sqlite
 volumes:
 - ./mydatabase.db:/usr/src/app/mydatabase.db
 ports:
